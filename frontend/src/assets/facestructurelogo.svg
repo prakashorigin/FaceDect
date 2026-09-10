@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="400" height="120" fill="#0f172a" rx="12"/>
+  
+  <!-- Icon: Face Detection Frame -->
+  <g transform="translate(30, 20)" stroke="#10b981" stroke-width="3" fill="none" stroke-linecap="round">
+    <!-- Detection Corners -->
+    <path d="M 10 25 L 10 10 L 25 10" />
+    <path d="M 55 10 L 70 10 L 70 25" />
+    <path d="M 10 55 L 10 70 L 25 70" />
+    <path d="M 55 70 L 70 70 L 70 55" />
+    
+    <!-- Minimal Face Silhouette -->
+    <path d="M 28 35 A 4 4 0 1 1 28 34" fill="#10b981"/>
+    <path d="M 52 35 A 4 4 0 1 1 52 34" fill="#10b981"/>
+    <path d="M 32 52 Q 40 58 48 52" stroke="#10b981" stroke-width="2.5"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="120" y="68" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" fill="#ffffff">Face<tspan font-weight="800" fill="#10b981">dect</tspan></text>
+</svg>
